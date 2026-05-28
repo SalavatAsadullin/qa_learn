@@ -3,7 +3,7 @@ import pytest
 @pytest.fixture(scope="module")
 def app_config():
     print("Config created")
-    return {"base_url": "https://api.example.com", "timeout": 30}
+    return {"base_url": "https://api.example.com", "timeout": 30, "status": "work"}
 
 @pytest.fixture
 def product():
